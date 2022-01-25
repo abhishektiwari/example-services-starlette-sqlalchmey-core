@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "example-services"
+version = "0.1.0"
+description = ""
+authors = ["Abhishek Tiwari <abhishek@abhishek-tiwari.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.12"
+starlette = "*"
+httptools = "*"
+httpx = "*"
+uvicorn = "*"
+uvloop = "*"
+databases = "*"
+asyncpg = "*"
+sqlalchemy = "*"
+aioredis = "*"
+rich = "*"
+alembic = "*"
+eventlet = "*"
+psycopg2-binary = "^2.9.3"
+orjson = "^3.6.5"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+isort = "*"
+mypy = "*"
+flake8 = "*"
+flake8-fastapi = "*"
+black = "*"
+safety = "*"
+autoflake = "*"
+pyupgrade = "*"
+icecream = "*"
+ipython = "*"
+pytest-cov = "*"
+pylint = "*"
+locust = "^2.5.1"
+Faker = "^11.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
